@@ -20,4 +20,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Execute The Tests
-      run: mvn test -PRegression
+      run: mvn clean test -PRegression
